@@ -1,0 +1,29 @@
+/*feuille de style css pour 02-balise.htlm*/
+/*les éléménts de la page styléci-dessous: élément = balises*/
+body{
+    background-color: lightcyan;
+    color:#000;
+    border: 2px solid orange;
+}
+
+header { 
+    background-color: #900c3f;
+    color: white;
+    height: 100px; /*hauteur*/
+}
+
+nav{
+
+    background-color: navy; 
+    color:orangered;
+}
+
+article{
+background-color: white;
+height: 80px;
+}
+/*une classe pour stylé certaine zone de la page : les class sont introduite par un point.*/
+
+.fond_rouge{
+    background: red;
+}
