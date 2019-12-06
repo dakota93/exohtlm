@@ -1,0 +1,22 @@
+body{
+    background-color: lightcyan;
+    color:#000;
+   
+}
+
+header { 
+    background-color: #900c3f;
+    color: white;
+    height: 100px; /*hauteur*/
+}
+
+nav{
+
+    background-color: navy; 
+    color:orangered;
+}
+
+article{
+background-color: white;
+height: 80px;
+
