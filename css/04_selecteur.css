@@ -1,0 +1,27 @@
+/* feuille de style pour la page selecteur*/
+
+body{
+    background-color: rgb(102, 97, 97);
+    color: black;
+}
+
+/* des classes pour la page*/
+
+.zone1{
+    background-color: peru;
+    height: 50px;
+}
+
+.zone2{
+
+    background-color: plum;  /*hauteur bloc*/
+    height: 50px;   
+}
+/* des styles pour id*/
+
+#zone3{
+background-color: coral;
+color: black;
+height: 50px;
+
+}
