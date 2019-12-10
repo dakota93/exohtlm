@@ -2,5 +2,13 @@ body{
     background-color: burlywood;
     color:red;
 }
+body{
+    background-color: wheat;
+}
+
+
+   body{/* un dégrader de couleur  qui fini avec la seconde couleur par defaut de haut en bas*/
+    background: linear-gradient(red,blue)
+   }
 
 

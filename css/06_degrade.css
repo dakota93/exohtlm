@@ -4,12 +4,22 @@ body{
     background-color: wheat;
 }
 
-.rectangle{
-    border: 1px solid black;
+.carre{
+    /* un dégrader de couleur  qui fini avec la seconde couleur par defaut de haut en bas*/
+    background: linear-gradient(red, blue);
+    
     /*largeur*/
     width: 45em;
     /*hauteur*/
     height: 45em;
-    /* la valeur auto laisse le navigateur centrer l'élément*/
+    /* la valeur 0 auto laisse le navigateur centrer l'élément*/
     margin: 0 auto;
+}
+.cercle{
+    background: linear-gradient(to right,#40a497, #6840a4);
+    width: 25em;
+    height: 25em;
+    margin: 0 auto;
+      /*la propriété border radius permet d'arrondir pllus ou moins les angles*/
+    border-radius: 50%;
 }
