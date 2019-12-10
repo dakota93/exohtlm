@@ -1,0 +1,15 @@
+/* feuille de style pour la page avec des débradés de couleurs en css*/
+
+body{
+    background-color: wheat;
+}
+
+.rectangle{
+    border: 1px solid black;
+    /*largeur*/
+    width: 45em;
+    /*hauteur*/
+    height: 45em;
+    /* la valeur auto laisse le navigateur centrer l'élément*/
+    margin: 0 auto;
+}
