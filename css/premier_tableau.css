@@ -1,3 +1,61 @@
+
+
+/* l'étoile ou asterix selectionne tout les élément de ma page html*/
+/* font family nous permet de définir la typo utilisée sur la page : les typos se présentent dans l'ordre souhaité*/
+/* lorsque le nom de la typo est constituer de plusieur termes ont doit l'encadrer d'apostrophe ou de (quotes)*/
+*{
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
 body{
-    background-color: cornflowerblue
+    background-color: #cbd4ce;
+    /*largeur du tableau*/
+    width: 50%;
+    /*margin: centrer le contenue du travail entre autre ici le tableau*/
+    margin: auto;
+}
+/* les styles pour les tableau*/
+table{
+    /* bordure exterierur tableau */
+    /* border: 3 valeurs : épaisseur, type de filet, couleur*/
+border: 2px solid #080808;
+/* par defaut la bordure contient 2 traits, pour que le trait soit unique on utilise la propriété collapse*/
+border-collapse: collapse;
+/*la largeur du tableau par rapport a son contenant donc ici body// le tableau hérite des propriété de son contenant  sauf changementici la couleur de fond*/
+
+width: 90%;
+}
+caption{ /* border: 3px solid #483D8B; */
+    padding: 10px;
+    /* border-collapse: collapse; */
+    font-weight: bold;
+    text-transform: uppercase;}
+
+/*il est possible de declaré plusieurs élément et de leur affecter les memes propriétés, les éléments sont séparés par une virgule*/
+thead,tfoot{
+    background-color: burlywood;
+    border: 2px solid black;
+}
+tbody{
+    border: 2px solid black;
+}
+th{
+    /* th : sépare les titres d'en tete du tableau */
+    border: 2px solid black;
+/*padding permet d'augmenter la case du titre d'en tete*/
+    padding: 10px ;
+
+    /* width permet d'equilibrer la largeur des cases */
+    width: 20%;
+}
+td{
+    /* creer les cases pour le tableau*/
+border: 2px solid #030303;
+/*permet de centrer les écritures*/
+text-align:center;
+}
+
+/*td: :first-child: le 1er td pour aligner a gauche  le texte dans la premiere celulle  */
+td:first-child{
+    text-align: left;
 }
