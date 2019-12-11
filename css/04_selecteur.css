@@ -1,27 +1,96 @@
-/* feuille de style pour la page selecteur*/
+/*feuille de style pour la page selecteur*/
 
 body{
     background-color: rgb(102, 97, 97);
     color: black;
+    /*taille de la police ou de la typo  ou de la font ( pas de l'écriture)*/
+    font-size: 18px;
+}
+/* des propriétés pour la section et pour les différents paragraphe de la section*/
+
+section{
+background-color: cadetblue;
+/*width permet de faire une marge interne (cadre de couleur)*/
+width: 50%;
+/*ecarter m'ecriture du bord du cadre*/
+padding: 10px;
+/*margin bottom permet de separer les sections */
+margin-bottom: 10px;
+border: 1px solid red;
+}
+section p {
+color: rgb(52, 32, 235);
+}
+section p:first-child{
+    /*le premier P de la section sera darkblue et en gras*/
+color: darkblue;
+font-weight: bolder;
+}
+section p:last-child{
+    /*met en surbrillance le der,ier élément de chaque section*/
+    background-color: darkcyan;
+}
+section p:nth-child(3){
+    /* le troisieme de chaque section sera en majuscule*/
+text-transform: uppercase;
 }
 
-/* des classes pour la page*/
 
-.zone1{
+
+
+section p:nth-child(even){
+    /* tout les paragraphe pairs en surbrillance*/
+    background-color: darkgray;
+}
+
+section p:nth-child(odd){
+    /* tout les paragraphe impairs en surbrillance*/
+    background-color: darkgreen;
+}
+
+section p:nth-child(5), section p:nth-child(9){
+    /* tout les 5eme p de chaque section sera en majuscule*/
+   text-transform: capitalize;
+   height: 50px;
+}
+
+
+/*des classes pour la page*/
+
+.zone1, .zone2 {
+/*height hauteur de la couleur de selection*/
+    height:  100px;
+}
+
+.zone1 {
     background-color: peru;
-    height: 50px;
+      
 }
 
-.zone2{
+.zone2 {
 
-    background-color: plum;  /*hauteur bloc*/
-    height: 50px;   
+    background-color: plum;  
+     
 }
-/* des styles pour id*/
+/*des styles pour id*/
 
-#zone3{
+#zone3 {
+    /*id donc avant son nom je met # */
 background-color: coral;
 color: black;
 height: 50px;
+}
+
+#zone3::before{
+    /*on rajoute du contenue d'ecriture avant l'id zone 3*/
+    content: " rajouté avant la zone 3";
+}
+
+#zone3:after{
+    /*on rajoute du contenue d'ecriture apres l'id zone 3*/
+    content: " rajouté aprés la zone 3";
+}
+
 
 }
+

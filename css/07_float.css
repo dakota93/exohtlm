@@ -1,0 +1,24 @@
+
+body{
+background-color: linen;
+}
+.boite{
+    /*insére une image*/
+ background: url(../img/siamois.jpg);
+ /* ne ce repete pas*/
+ background-repeat: no-repeat;
+ height: 194px;
+ width: 270px;
+ border: 2px solid black;
+ /*effet flottant : permet de placer les balises cote a cote alors que selon le flux du web standart les éléments se placent les uns au dessus des autres*/ 
+ float: left
+}
+.clear{
+    /*supprime l'effet flottant*/
+    clear: both;
+}
+
+a:hover{
+    background-color: chocolate ;
+    color: white;
+}
