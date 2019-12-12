@@ -32,6 +32,7 @@ footer {
 .clear{
     clear: both;
 }
+
 .a, .b, .c, .d{
     width: 50%;
     height: 250px;

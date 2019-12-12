@@ -1,21 +1,28 @@
 body {
     background-color: tomato;
-    font-size: 25px;
-    color: rgb(3, 3, 3);
+    color: white;
+    
 }
-.cubitus{
-    background-color: darkred;
+.c1, .c2 {
     width: 150px;
     height: 150px;
-    border:2px solid goldenrod
+    float: left;
+    border:10px solid goldenrod;
+    border-radius: 20%;
+    text-align: center;
+    margin: 5px;
+
+
 
 }
-
-.cubitus2{
-    background-color: khaki;
-    width: 150px;
-    height: 150px;
-    border:2px solid goldenrod
-
+.c1 {
+    background-color: rosybrown;
 }
 
+.c2 {
+    background-color: royalblue;
+}
+
+.clear{
+    clear: both;
+}
