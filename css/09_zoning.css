@@ -1,0 +1,54 @@
+body {
+    background-color: tomato;
+    font-size: 25px;
+    color: rgb(3, 3, 3);
+}
+
+#contenu {
+    width: 80%;
+    border: 5px solid whitesmoke;
+    margin: 0 auto;
+}
+
+header {
+    background-color: sienna;
+    height: 100px;
+}
+
+nav {
+    background-color: slategray;
+    height: 50px;
+}
+
+section {
+    height: 500px ;
+}
+
+footer {
+    background-color: tan;
+    height: 100px;
+}
+
+.clear{
+    clear: both;
+}
+.a, .b, .c, .d{
+    width: 50%;
+    height: 250px;
+    float: left;
+}
+.a{
+    background-color: teal;
+}
+
+.b{
+    background-color: mediumaquamarine;
+}
+
+.c{
+    background-color: khaki;
+}
+
+.d{
+    background-color: darkblue;
+}

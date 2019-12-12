@@ -1,0 +1,21 @@
+body {
+    background-color: tomato;
+    font-size: 25px;
+    color: rgb(3, 3, 3);
+}
+.cubitus{
+    background-color: darkred;
+    width: 150px;
+    height: 150px;
+    border:2px solid goldenrod
+
+}
+
+.cubitus2{
+    background-color: khaki;
+    width: 150px;
+    height: 150px;
+    border:2px solid goldenrod
+
+}
+
