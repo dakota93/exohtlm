@@ -8,7 +8,14 @@ body{
 
 
    body{/* un dégrader de couleur  qui fini avec la seconde couleur par defaut de haut en bas*/
-    background: linear-gradient(red,blue)
+    background: linear-gradient,blue white)
    }
 
+.block{
+    display: block;
+    
+}
 
+img {
+    border: 10px solid rebeccapurple;
+}

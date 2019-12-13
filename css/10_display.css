@@ -1,0 +1,26 @@
+body{
+    background-color: lightsteelblue;
+}
+.encadre{
+    border: 1px solid black;
+    padding: 3px;
+    /*display:block; */
+    display: block;
+
+}
+/*permet de montrer une surbrillance sur un lien en <a href....*/
+a:hover{
+    background-color: brown;
+    color: burlywood;
+}
+
+/*avec cette class je peux modifié l'azffichage normal de la balise inline a laquelle j'affecte cette classe et qui deviens de type block*/
+
+.block{
+    display: block;
+}
+
+/*avec cette classe je peux faire le contraire : modifier une balise de type block qui deviens de type inline*/
+.inline{
+    display: inline;
+}
