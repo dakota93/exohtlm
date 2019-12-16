@@ -9,9 +9,14 @@ background-color: linen;
  background-repeat: no-repeat;
  height: 194px;
  width: 270px;
- border: 2px solid black;
+ border: 25px solid black;
  /*effet flottant : permet de placer les balises cote a cote alors que selon le flux du web standart les éléments se placent les uns au dessus des autres*/ 
- float: left
+ float: left;
+ transition: border 1s;
+}
+.boite:hover{
+    margin: 10px;  
+    border: 25px solid navy;
 }
 .clear{
     /*supprime l'effet flottant*/

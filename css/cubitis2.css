@@ -1,0 +1,19 @@
+body {
+    background-color: tomato;
+    color: white;
+    
+}
+.case1, .case2, .case3, .case4{
+    width: 150px;
+    height: 150px;
+    float: left;
+    border:10px solid goldenrod;
+    border-radius: 20%;
+    text-align: center;
+    margin: 5px;
+}
+
+.case1 {
+    background-color: green;
+}
+

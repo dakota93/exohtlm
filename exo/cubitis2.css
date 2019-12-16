@@ -1,0 +1,28 @@
+body {
+    background-color: tomato;
+    color: white;
+    
+}
+.c1, .c2 {
+    width: 150px;
+    height: 150px;
+    float: left;
+    border:10px solid goldenrod;
+    border-radius: 20%;
+    text-align: center;
+    margin: 5px;
+
+
+
+}
+.c1 {
+    background-color: rosybrown;
+}
+
+.c2 {
+    background-color: royalblue;
+}
+
+.clear{
+    clear: both;
+}
