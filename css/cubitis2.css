@@ -3,17 +3,51 @@ body {
     color: white;
     
 }
-.case1, .case2, .case3, .case4{
+
+.case0, .case1, .case2, .case3, .case4{
     width: 150px;
     height: 150px;
     float: left;
     border:10px solid goldenrod;
     border-radius: 20%;
     text-align: center;
-    margin: 5px;
+    margin: 5px;   
 }
+
+
 
 .case1 {
     background-color: green;
+    border;
 }
 
+.case0{
+    background-color: red;
+}
+.case2{
+    background-color: skyblue;
+}
+
+.case4{
+    background-color: springgreen;
+    border-radius: 50%;
+}
+
+.case3{
+    background-color: rosybrown;
+}
+.clear{
+    clear: both;
+}
+
+.case10{
+        background-color: transparent;
+        opacity: 0.2;
+        width: 150px;
+        height: 150px;
+        float: left;
+        border:10px solid transparent;
+        border-radius: 20%;
+        text-align: center;
+        margin: 5px;   
+       }

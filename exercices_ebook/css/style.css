@@ -1,0 +1,30 @@
+/*feuille de style pour le dossier ebbok*/
+
+body{
+    background-color: azure;
+}
+
+/* style pour bien voir les réponses aux questions*/
+.réponse{
+    background-color: goldenrod;
+}
+
+dl{
+    background-color: rgb(236, 187, 170);
+    border: 2px solid black;
+    margin: 5px;
+    left: 5px;
+}
+ nav{
+     border: black 2px solid;
+     background-color: darkgrey;
+ }
+
+ h1{
+     border: black 2px solid;
+     background-color: burlywood;
+ }
+ p{
+     border: black 2px solid;
+     background-color: darkkhaki;
+ }
